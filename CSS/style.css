@@ -1,0 +1,284 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ /* .container{
+display: inline;;
+}   */
+.navbar{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    /* border: 2px solid ; */
+    /* height: 110px; */
+    width: 57vw;
+    background: #4a89dc;
+    border-radius: 12px;
+    /* margin: 0 auto; */
+}
+
+.left{
+    height: 151px;
+    /* border: 2px solid; */
+    width: 279px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.left img{
+    height: 175px;
+    width: 165px;
+    border: 12px solid white;
+    margin-left: 22px;
+
+}
+
+.right{
+    /* border: 2px solid; */
+    position: relative;
+    left: 97px;
+    
+}
+.right h1{
+    margin: 0px 6px;
+    margin-top: 22px;
+    font-size: 35px;
+    /* font-weight: 100; */
+    color: white;
+}
+.right h3{
+    margin: 0px 6px;
+    font-size: 17px;
+   
+    color: white;
+}
+.right button{
+    height: 40px;
+
+    width: 119px;
+    border-radius: 30px;
+    margin: 8px 9px;
+ 
+
+}
+.btn{
+    margin-top: 12px;
+    width: 323px;
+    display: flex;
+    /* border: 2px solid; */
+    height: 59px;
+}
+.btn-colr{
+    color: #fff;
+    background-color: #37bc9b;
+    border-color: #37bc9b;
+    font-size: 15px;
+}
+/* About  */
+.about{
+ display: flex;
+ flex-direction: row;
+ color: #434a54;
+
+}
+.cont-ab{
+    display: flex;
+    flex-direction: row;
+    width: 57vw;
+}
+h1{
+    margin: 15px 1px;
+    /* text-align: center; */
+    font-size: 30px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+p{
+    
+    /* text-align: center; */
+    font-size: 15px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.about-us{
+    height: 164px;
+    width: 476px;
+    /* border: 2px solid; */
+    margin: 0px 53px;
+    /* padding: 25px 78px; */
+    padding: 22px 16px;
+}
+.info {
+    height: 164px;
+    width: 476px;
+    padding: 22px 16px;
+}
+td{
+    
+    width: 150px;
+    height: 38px;
+}
+.profetional{
+    display: flex;
+    /* border: 2px solid; */
+}
+.pr1{
+    width: 476px;
+}
+.line{
+    height: 22px;
+    width: 420px;
+    background-color:#dcdfe3c9;
+    border: 2px solid #bdc1c7a2;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius:8px;
+}
+.pr3{
+    width: 476px;
+    padding: 22px 16px;
+    padding: 75px 86px;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+hr{
+    width: 57vw;
+    margin: 0px auto;
+    border: .5px solid #dcdfe3c9;
+}
+.edu-1{
+    position: relative;
+    border: 2px solid #bdc1c7a2;
+    border-left:2px solid #4a89dc;
+    height: 158px;
+    width: 854px;
+    border-radius: 5px;
+    margin-top: 20px    ;
+}
+
+.edu2{
+display: flex ;
+/* border: 2px solid; */
+
+}
+.vertical-l{
+    height: 180px;
+    border: .5px solid #bdc1c7a2;
+    margin-left: 0px;
+    width: 0px;
+}
+.circle1{
+    height: 12px;
+    width: 12px;
+    position: relative;
+    top: 51px;
+    left: -7px;
+    background-color: #fff;
+    border: 2px solid #4a89dc;
+    border-radius: 10px;
+}
+.horizontal-l{
+    height: 0px;
+    width: 70px;
+    margin: 0px;
+    border: .5px solid #bdc1c7a2;
+    margin-top: 60px;
+}
+h3,p,h6{
+    margin: 12px;
+}
+.contact{
+    width: 476px;
+    margin-right: 0px;
+}
+input[type = "name"]{
+    width: 200px;
+    height: 30px;
+    border: 2px solid #4a89dc;
+    margin: 15px 7px;
+    border-radius: 0px;
+
+}
+input[type = "email"]{
+    width: 200px;
+    height: 30px;
+    border: 2px solid #4a89dc;
+    margin: 15px 7px;
+    border-radius: 0px;
+
+}
+textarea{
+    height: 98px;
+    width: 420px;
+    border: 2px solid #4a89dc;
+    margin: 8px 7px;
+    border-radius: 0px;
+    /* padding: 8px 8px; */
+    
+}
+form button{
+    width: 98px;
+    height: 30px;
+    border: 2px solid #4a89dc;
+    margin: 15px 7px;
+    border-radius: 30px;
+    background-color:  #4a89dc;
+    color: white;
+
+}
+form button:hover{
+    background-color: #2b7ce6;
+}
+::placeholder{
+padding: 12px;
+}
+textarea::placeholder{
+    padding: 8px 8px;
+}
+.foot{
+    display:flex ;
+    flex-direction: row;
+ 
+    
+}
+.info-contact{
+
+ padding: 79px 0px; 
+}
+.content{
+  /* background-color: gray; */
+}
+.container {
+    width: 57vw;
+    border: 2px solid white;
+    margin:0px auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    margin-bottom: 0px;
+
+}
+.content-1{
+    display: flex;
+    margin: 0px auto;
+    width: 57vw;
+}
+.logoes{
+    position: absolute;
+    right: 23%;
+    width: 100px;
+    top: 23px;
+}
+.content-1 h1{
+    top: 45px;
+    font-size: 25px;
+    /* font-weight: 100; */
+    color: #434a54;
+}
+.content-1 img{
+height: 20px;
+width: 20px;
+
+
+}
